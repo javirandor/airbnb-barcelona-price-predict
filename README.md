@@ -1,7 +1,9 @@
 # Airbnb Price Recommender
 #### Javier Rando Ramírez
 
-This repository contains the code to build a Airbnb price recommender for new listings. The idea is building a tool that based on historical information, is able to help new users choose a price for their property. On top of that, it uses [SHAP Values](https://github.com/slundberg/shap) to explain the prediction to the users. This way, we ensure user trust.
+This repository contains the code to build a Airbnb price recommender for new listings. The idea is building a tool that based on historical information, is able to help new users choose a price for their property. On top of that, it uses [SHAP Values](https://github.com/slundberg/shap) to explain the prediction to the users to ensure user trust.
+
+The scope of this project is bounded to Barcelona, Spain. However, it can be easily replicated for any city for which [Inside Airbnb](http://insideairbnb.com/) has available data.
 
 ### Predictions
 Our recommender will predict two different prices: `minimum price` and `total_price`. The first one accounts for the minimum occupancy of the property while the second, accounts for the price considering full occupancy.
